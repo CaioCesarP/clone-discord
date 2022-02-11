@@ -1,10 +1,14 @@
 import React from 'react';
 
 import GlobalStyles from './styles/GlobalStyles';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <h1>casquinha</h1>
+    <>
+      <GlobalStyles />
+      <Layout />
+    </>
   );
 }
 
